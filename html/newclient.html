@@ -1,0 +1,45 @@
+<!DOCTYPE html>
+<html lang="fr">
+   <head>
+      <meta charset="utf-8" />
+      <meta name="viewport" content="width=device-width, initial-scale=1, user-scalable=0" />
+      <link rel="stylesheet" href="/css/ticket.css" />
+      <link
+         rel="stylesheet"
+         href="https://fonts.googleapis.com/css2?family=Material+Symbols+Outlined:opsz,wght,FILL,GRAD@24,400,0,0"
+      />
+      <title>New client</title>
+   </head>
+
+   <body>
+      <nav>
+         <a href="client.html" class="a_nav_bouton_redirection">
+            <span class="material-symbols-outlined icon_back icon">arrow_back</span>
+         </a>
+         <h1>Ajouter un client</h1>
+         <a href="accueil.html" class="a_nav_bouton_redirection">
+            <span class="material-symbols-outlined icon_home icon">home</span>
+         </a>
+      </nav>
+
+      <div class="div_all_newclient">
+         <form action="" method="POST">
+            <label for="moe">MOE</label>
+            <input type="text" name="moe" required />
+            <label for="nom">Nom</label>
+            <input type="text" name="nom" required />
+            <label for="prenom">Prénom</label>
+            <input type="text" name="prenom" required />
+            <label for="fonction">Fonction</label>
+            <input type="text" name="fonction" required />
+            <label for="telephone">Téléphone</label>
+            <input type="text" name="telephone" required />
+            <label for="email">E-mail</label>
+            <input type="text" name="email" required />
+            <button class="input_button" type="submit" value="valider" name="valide_button">
+               <a class="a_redirection" href="/html/client.html">Valider</a>
+            </button>
+         </form>
+      </div>
+   </body>
+</html>

@@ -1,0 +1,41 @@
+<!DOCTYPE html>
+<html lang="fr">
+   <head>
+      <meta charset="utf-8" />
+      <meta name="viewport" content="width=device-width, initial-scale=1, user-scalable=0" />
+      <link rel="stylesheet" href="/css/ticket.css" />
+      <link
+         rel="stylesheet"
+         href="https://fonts.googleapis.com/css2?family=Material+Symbols+Outlined:opsz,wght,FILL,GRAD@24,400,0,0"
+      />
+      <title>Modifier un tech</title>
+   </head>
+
+   <body>
+      <nav>
+         <a href="tech.html" class="a_nav_bouton_redirection">
+            <span class="material-symbols-outlined icon_back icon">arrow_back</span>
+         </a>
+         <h1>Modifier un technicien</h1>
+         <a href="accueil.html" class="a_nav_bouton_redirection">
+            <span class="material-symbols-outlined icon_home icon">home</span>
+         </a>
+      </nav>
+
+      <div class="div_all_modiftech">
+         <form action="" method="POST">
+            <label for="nom">Nom</label>
+            <input type="text" name="nom" value="Blanche" required />
+            <label for="prenom">Prénom</label>
+            <input type="text" name="prenom" value="Leo" required />
+            <label for="telephone">Téléphone</label>
+            <input type="text" name="telephone" value="0612345678" required />
+            <label for="email">E-mail</label>
+            <input type="text" name="email" value="exemple@hotamil.fr" required />
+            <button class="input_button" type="submit" value="modifier" name="modif_button">
+               <a class="a_redirection" href="/html/tech.html">Modifier</a>
+            </button>
+         </form>
+      </div>
+   </body>
+</html>

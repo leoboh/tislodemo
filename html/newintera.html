@@ -1,0 +1,59 @@
+<!DOCTYPE html>
+<html lang="fr">
+   <head>
+      <meta charset="utf-8" />
+      <meta name="viewport" content="width=device-width, initial-scale=1, user-scalable=0" />
+      <link rel="stylesheet" href="/css/ticket.css" />
+      <link
+         rel="stylesheet"
+         href="https://fonts.googleapis.com/css2?family=Material+Symbols+Outlined:opsz,wght,FILL,GRAD@24,400,0,0"
+      />
+      <title>Nouvelle intervention divers</title>
+   </head>
+
+   <body>
+      <nav>
+         <a href="/html/projets.html" class="a_nav_bouton_redirection">
+            <span class="material-symbols-outlined icon_back icon">arrow_back</span>
+         </a>
+         <h1>Déclarer une intervention</h1>
+         <a href="accueil.html" class="a_nav_bouton_redirection">
+            <span class="material-symbols-outlined icon_home icon">home</span>
+         </a>
+      </nav>
+
+      <div class="div_all div_all_newinterir">
+         <form action="" method="POST">
+            <label for="date_inter">Date :</label>
+            <input class="date" name="date_inter" type="date" required />
+            <label for="technicien">Technicien :</label>
+            <select class="select_newinterir" name="technicien" id="all_tech">
+               <option selected="" disable="">Choisir un technicien</option>
+               <option disable="" value=""></option>
+            </select>
+            <label for="type_inter">Type d'intervention :</label>
+            <input type="text" name="type_inter" value="DIVERS" required />
+            <label for="commentaire">Description de l'intervention :</label>
+            <textarea class="textarea_com_newinterir" type="text" name="commentaire"></textarea>
+            <label for="etat">Etat de la mission :</label>
+            <select class="select_newinterir" name="etat" id="etat">
+               <option selected="" disable="" value="Terminer">Terminé</option>
+               <option value="Reserve">Terminé avec Réserve</option>
+               <option value="Echec">Echec</option>
+            </select>
+            <input
+               class="input_button input_button_sendmail_ic"
+               type="submit"
+               value="Envoi mail interne et client"
+               name="valide_button"
+            />
+            <input
+               class="input_button input_button_sendmail_i"
+               type="submit"
+               value="Envoi mail interne"
+               name="valide_button_intern"
+            />
+         </form>
+      </div>
+   </body>
+</html>

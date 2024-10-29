@@ -1,0 +1,59 @@
+<!DOCTYPE html>
+<html lang="fr">
+   <head>
+      <meta charset="utf-8" />
+      <meta name="viewport" content="width=device-width, initial-scale=1, user-scalable=0" />
+      <link rel="stylesheet" href="/css/ticket.css" />
+      <link
+         rel="stylesheet"
+         href="https://fonts.googleapis.com/css2?family=Material+Symbols+Outlined:opsz,wght,FILL,GRAD@24,400,0,0"
+      />
+      <title>New ticket</title>
+   </head>
+
+   <body>
+      <nav>
+         <a href="sites.html" class="a_nav_bouton_redirection">
+            <span class="material-symbols-outlined icon_back icon">arrow_back</span>
+         </a>
+         <h1>Editer un site</h1>
+         <a href="accueil.html" class="a_nav_bouton_redirection">
+            <span class="material-symbols-outlined icon_home icon">home</span>
+         </a>
+      </nav>
+
+      <div class="div_all_newsite">
+         <form action="" method="POST">
+            <label for="site_number">N° Site</label>
+            <input type="text" name="site_number" required />
+            <label for="adress">Adresse</label>
+            <input type="text" name="adress" required />
+            <label for="postal_code">Code Postal</label>
+            <input type="text" name="postal_code" required />
+            <label for="ville">Ville</label>
+            <input type="text" name="ville" required />
+            <label for="typologie">Typologie</label>
+            <select name="typologie" id="typologie">
+               <option value="Pylone">Pylone</option>
+               <option value="Terrasse">Terrasse</option>
+               <option value="Chateau d'eau">Château d'eau</option>
+               <option value="tour beton">Tour béton</option>
+            </select>
+            <label for="bailleur">Bailleur</label>
+            <select name="bailleur" id="bailleur">
+               <option value="inconnu">inconnu</option>
+               <option value="ATC">ATC</option>
+               <option value="Phenix Contact">Phenix Contact</option>
+               <option value="CELLNEX">CELLNEX</option>
+               <option value="TDF">TDF</option>
+               <option value="Autres">Autres</option>
+            </select>
+            <label for="cartoradio">Cartoradio</label>
+            <input type="text" name="cartoradio" required />
+            <button class="input_button" type="submit" value="valider" name="valide_button">
+               <a class="a_redirection" href="/html/sites.html">Valider</a>
+            </button>
+         </form>
+      </div>
+   </body>
+</html>

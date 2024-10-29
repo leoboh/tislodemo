@@ -1,0 +1,232 @@
+@font-face {
+   font-family: "Roboto-Bold";
+   src: url("../fonts/Roboto/Roboto-Bold.ttf") format("truetype");
+}
+@font-face {
+   font-family: "Roboto-Regular";
+   src: url("../fonts/Roboto/Roboto-Regular.ttf") format("truetype");
+}
+@font-face {
+   font-family: "Roboto-Light";
+   src: url("../fonts/Roboto/Roboto-Light.ttf") format("truetype");
+}
+
+body {
+   width: 100%;
+   height: 100vh;
+   margin: 0;
+   background-color: #1d2636;
+}
+
+h1 {
+   color: white;
+   font-size: 1.5em;
+   margin: 0;
+   font-family: "Roboto-Bold", arial;
+}
+
+.a_button_add_site {
+   text-decoration: none;
+   font-family: "Roboto-Regular", arial;
+}
+
+.div_all_tech,
+.div_all_client {
+   padding-top: 215px;
+   padding-bottom: 200px;
+}
+
+nav {
+   position: fixed;
+   display: flex;
+   justify-content: space-around;
+   align-items: center;
+   width: 100%;
+   padding-top: 50px;
+   padding-bottom: 50px;
+   background-color: #1d2636;
+   z-index: 10;
+}
+
+.a_nav_bouton_redirection {
+   padding: 0 15px 0 15px;
+}
+
+.icon_back {
+   font-size: 1.5em !important;
+   color: #6a2dd9;
+}
+
+.icon_home {
+   font-size: 1.5em !important;
+   color: #6a2dd9;
+}
+
+.icon_add {
+   font-size: 1em !important;
+   color: #6a2dd9;
+}
+
+.icon_list {
+   font-size: 1em !important;
+   color: #6a2dd9;
+}
+
+.a_add_site {
+   margin-bottom: 130px;
+   text-align: center;
+}
+
+.div_ticket {
+   background: #e2e2e2;
+   display: flex;
+   flex-direction: column;
+   align-items: center;
+   justify-content: center;
+   width: 250px;
+   margin: auto;
+   margin-bottom: 75px;
+   border-radius: 25px;
+   border: 2px solid white;
+   box-shadow: 0px 0px 20px 8px #5a3fc9;
+}
+
+.div_info_ticket {
+   width: 85%;
+}
+
+.p_div_info_ticket {
+   text-align: left;
+   font-size: 1em;
+   font-family: "Roboto-Regular", arial;
+   margin-top: 0;
+   margin-bottom: 10px;
+}
+
+.span_p_divinfo {
+   font-family: "Roboto-Bold", arial;
+   color: #5424ad;
+}
+
+.div_choice {
+   width: 100%;
+   display: flex;
+   justify-content: space-around;
+   align-items: center;
+   margin-bottom: 35px;
+   margin-top: 35px;
+}
+
+.p_nom,
+.p_moe {
+   margin-top: 5%;
+}
+
+.input_add_site {
+   font-size: 1.2em;
+   padding: 20px;
+   border-radius: 25px;
+   border: 2px solid #ffffff;
+   background: #6138d1;
+   color: #e2e2e2;
+   box-shadow: 0px 0px 20px 0px #ffffff;
+}
+
+.input_site {
+   font-size: 1em;
+   padding: 15px;
+   border-radius: 20px;
+   border: 2px solid #ffffff;
+   background: #6138d1;
+   color: #e2e2e2;
+   box-shadow: 0px 0px 20px 0px #5a3fc9;
+}
+
+.a_btn_modif {
+   text-decoration: none;
+   font-family: "Roboto-Regular", arial;
+}
+
+@media screen and (min-width: 800px) {
+   nav {
+      position: fixed;
+      display: flex;
+      justify-content: space-around;
+      align-items: center;
+      width: 100%;
+      padding-top: 25px;
+      padding-bottom: 25px;
+      background-color: #1d2636;
+      z-index: 10;
+      box-shadow: 0px 0px 6px 0px #6138d1;
+   }
+
+   h1 {
+      color: white;
+      font-size: 2em;
+      margin: 0;
+      text-align: center;
+   }
+
+   .input_add_site {
+      font-size: 1em;
+      padding: 15px;
+      border-radius: 25px;
+      border: 2px solid #ffffff;
+      background: #6138d1;
+      color: #e2e2e2;
+      box-shadow: 0px 0px 20px 0px #ffffff;
+   }
+
+   .input_add_site:hover {
+      scale: 1.05;
+   }
+
+   .div_ticket {
+      background: #e2e2e2;
+      display: flex;
+      flex-direction: column;
+      align-items: center;
+      justify-content: center;
+      width: 300px;
+      margin: auto;
+      margin-bottom: 75px;
+      border-radius: 25px;
+      border: 2px solid white;
+      box-shadow: 0px 0px 20px 8px #5a3fc9;
+   }
+
+   .div_info_ticket {
+      width: 85%;
+   }
+
+   .p_div_info_ticket {
+      text-align: left;
+      font-size: 1em;
+      font-family: "Roboto-Regular", arial;
+      margin-bottom: 10px;
+   }
+
+   .div_choice {
+      width: 100%;
+      display: flex;
+      justify-content: space-around;
+      align-items: center;
+      margin-bottom: 35px;
+      margin-top: 35px;
+   }
+
+   .input_site {
+      font-size: 1em;
+      padding: 10px;
+      border-radius: 15px;
+      border: 2px solid #ffffff;
+      background: #6138d1;
+      color: #e2e2e2;
+      box-shadow: 0px 0px 20px 0px #5a3fc9;
+   }
+
+   .input_site:hover {
+      scale: 1.02;
+   }
+}

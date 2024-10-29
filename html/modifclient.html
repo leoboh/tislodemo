@@ -1,0 +1,45 @@
+<!DOCTYPE html>
+<html lang="fr">
+   <head>
+      <meta charset="utf-8" />
+      <meta name="viewport" content="width=device-width, initial-scale=1, user-scalable=0" />
+      <link rel="stylesheet" href="/css/ticket.css" />
+      <link
+         rel="stylesheet"
+         href="https://fonts.googleapis.com/css2?family=Material+Symbols+Outlined:opsz,wght,FILL,GRAD@24,400,0,0"
+      />
+      <title>Modif client</title>
+   </head>
+
+   <body>
+      <nav>
+         <a href="client.html" class="a_nav_bouton_redirection">
+            <span class="material-symbols-outlined icon_back icon">arrow_back</span>
+         </a>
+         <h1>Modifier une fiche client</h1>
+         <a href="accueil.html" class="a_nav_bouton_redirection">
+            <span class="material-symbols-outlined icon_home icon">home</span>
+         </a>
+      </nav>
+
+      <div class="div_all_modifclient">
+         <form action="" method="POST">
+            <label for="moe">Moe</label>
+            <input type="text" name="moe" value="89038" required />
+            <label for="nom">Nom</label>
+            <input type="text" name="nom" value="Dupont" required />
+            <label for="prenom">Prénom</label>
+            <input type="text" name="prenom" value="Jean" required />
+            <label for="fonction">Fonction</label>
+            <input type="text" name="fonction" value="Chef d'unitée" required />
+            <label for="telephone">Téléphone</label>
+            <input type="text" name="telephone" value="061234567" required />
+            <label for="email">E-mail</label>
+            <input type="text" name="email" value="exemple@hotmail.fr" required />
+            <button class="input_button" type="submit" value="modifier" name="modif_button">
+               <a class="a_redirection" href="/html/client.html">Valider</a>
+            </button>
+         </form>
+      </div>
+   </body>
+</html>

@@ -1,0 +1,62 @@
+<!DOCTYPE html>
+<html lang="fr">
+   <head>
+      <meta charset="utf-8" />
+      <meta name="viewport" content="width=device-width, initial-scale=1, user-scalable=0" />
+      <link rel="stylesheet" href="/css/liste.css" />
+      <link
+         rel="stylesheet"
+         href="https://fonts.googleapis.com/css2?family=Material+Symbols+Outlined:opsz,wght,FILL,GRAD@24,400,0,0"
+      />
+      <title>Liste des projets</title>
+   </head>
+   <body>
+      <nav>
+         <a href="sites.html" class="a_nav_bouton_redirection">
+            <span class="material-symbols-outlined icon_back icon">arrow_back</span>
+         </a>
+         <h1>Les Projets du 0987523</h1>
+         <a href="accueil.html" class="a_nav_bouton_redirection">
+            <span class="material-symbols-outlined icon_home icon">home</span>
+         </a>
+      </nav>
+
+      <div class="div_all_projet">
+         <div class="a_add_site">
+            <a href="/html/newprojet.html" class="a_button_add_site">
+               <boutton class="input_add_site" type="submit" value="Créer un projet" name="add_projet">Créer un projet</boutton>
+            </a>
+         </div>
+
+         <div class="div_ticket">
+            <div class="div_info_ticket">
+               <p class="p_numbersite">N° Osmos : 098765</p>
+               <p class="p_numbersite">Moe : 89038</p>
+               <p class="p_numbersite">Responsable : Camille Dupont</p>
+               <p id="etat" class="p_numbersite">Status : Cloturer</p>
+               <div class="div_choice_projets">
+                  <div class="div_newinter_projet">
+                     <a class="a_btn_modif" href="/html/newinter.html">
+                        <boutton
+                           class="input_modif input_site"
+                           type="submit"
+                           value="Nouvelle Intervention"
+                           name="nouvelle_intervention"
+                           >Nouvelle intervention</boutton
+                        >
+                     </a>
+                  </div>
+                  <a class="a_btn_modif" href="/html/inter.html">
+                     <boutton class="input_modif input_site" type="submit" value="Historique" name="historique"
+                        >Historique</boutton
+                     >
+                  </a>
+                  <a class="a_btn_modif" href="/html/modifprojet.html">
+                     <boutton class="input_modif input_site" type="submit" value="Modifier" name="modif_projet">Modifier</boutton>
+                  </a>
+               </div>
+            </div>
+         </div>
+      </div>
+   </body>
+</html>
